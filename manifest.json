@@ -1,35 +1,35 @@
 {
   "short_name": "Conduit",
-  "name": "Conduit with ClojureScript and re-frame",
+  "name": "Conduit with ClojureScript and re-frame-10x",
   "start_url": "/index.html",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://clojurescript.org/images/cljs-logo-icon-32.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "/img/icon@1.png",
+      "src": "https://clojurescript.org/images/cljs-logo-icon-32.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "/img/icon@1.5x.png",
+      "src": "https://clojurescript.org/images/cljs-logo-icon-32.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/img/icon@2x.png",
+      "src": "https://clojurescript.org/images/cljs-logo-icon-32.png",
       "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "/img/icon@3x.png",
+      "src": "https://clojurescript.org/images/cljs-logo-icon-32.png",
       "sizes": "384x384",
       "type": "image/png"
     },
     {
-      "src": "/img/icon@4x.png",
+      "src": "https://clojurescript.org/images/cljs-logo-icon-32.png",
       "sizes": "512x512",
       "type": "image/png"
     }
