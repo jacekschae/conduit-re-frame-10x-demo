@@ -1,0 +1,31 @@
+{
+  "name": "conduit",
+  "version": "0.0.1",
+  "description": "ClojureScript and re-frame codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the RealWorld spec and API.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacekschae/conduit"
+  },
+  "author": {
+    "name": "Jacek Schae",
+    "email": "jacek.schae@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "shadow-cljs watch app",
+    "release": "shadow-cljs release app",
+    "server": "shadow-cljs server",
+    "clean": "rm -rf target; rm -rf public/js",
+    "clean-win": "rmdir /s /q public/js & rmdir /s /q target"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.6.10",
+    "react-flip-move": "^3.0.2",
+    "react-highlight.js": "^1.0.7"
+  }
+}
