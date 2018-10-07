@@ -27,7 +27,7 @@
                       :compiler-options {:closure-warnings {:global-this :off}
                                          :closure-defines {"re_frame.trace.trace_enabled_QMARK_" true
                                                            "day8.re_frame.tracing.trace_enabled_QMARK_" true}
-                                         :optimizations :whitespace}
+                                         :optimizations :none}
 
                       :devtools         {:http-root "public"
                                          :http-port 3000
