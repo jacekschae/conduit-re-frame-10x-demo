@@ -32,5 +32,6 @@
 
                       :devtools         {:http-root "public"
                                          :http-port 3000
+                                         :after-load conduit.core/main
                                          :preloads  [devtools.preload
                                                      day8.re-frame-10x.preload]}}}}
