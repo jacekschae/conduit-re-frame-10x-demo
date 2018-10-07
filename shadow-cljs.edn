@@ -20,12 +20,13 @@
                       :output-dir       "public/js"
                       :asset-path       "/js"
 
-                      :modules          {:main {:entries [day8.re-frame.trace.preload
+                      :modules          {:main {:entries [devtools.preload
+                                                          day8.re-frame.trace.preload
                                                           conduit.core]}}
 
                       :compiler-options {:closure-warnings {:global-this :off}
                                          :closure-defines {"re_frame.trace.trace_enabled_QMARK_" true
-                                                           "day8.re_frame.tracing.trace_enabled_QMARK_"  true}
+                                                           "day8.re_frame.tracing.trace_enabled_QMARK_" true}
                                          :optimizations :whitespace}
 
                       :devtools         {:http-root "public"
